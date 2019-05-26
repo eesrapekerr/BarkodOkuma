@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.barkodokuma">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".BizeUlasinActivity"
+            android:label="@string/title_activity_bize_ulas"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".DigerActivity"
+            android:label="@string/title_activity_diger"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".KozmetikActivity"
+            android:label="@string/title_activity_kozmetik"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TemizlikActivity"
+            android:label="@string/title_activity_temizlik"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GidaActivity"
+            android:label="@string/title_activity_gida"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_ana_sayfa"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AnaSayfaActivity"
+            android:label="@string/title_activity_ana_sayfa"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
